@@ -18,15 +18,17 @@ namespace AwAVR.ControllerCleaner
     {
         private static AnimatorController scanOneController;
         private static readonly List<ScanResult> results = new List<ScanResult>();
+        private const string ProductName = "Controller Cleaner";
         private static Vector2 scroll;
 
         [MenuItem("Tools/AwA/Controller Cleaner")]
         private static void ShowWindow()
-             => GetWindow<ControllerCleaner>(false, "Controller Cleaner", true)
+             => GetWindow<ControllerCleaner>(false, ProductName, true)
                  .titleContent.image = EditorGUIUtility.IconContent("Grid.PaintTool").image;
 
         private void OnGUI()
         {
+            Core.Title(ProductName);
             scroll = EditorGUILayout.BeginScrollView(scroll);
 
             using (new GUILayout.HorizontalScope("box"))
