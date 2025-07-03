@@ -1,7 +1,7 @@
 {
   "name": "com.awavr.controllercleaner",
   "displayName": "AwA - ControllerCleaner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Controller Editor's 'Cleanup unused sub-assets' in a standalone and faster script.",
   "gitDependencies": {},
   "vpmDependencies": {
