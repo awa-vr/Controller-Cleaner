@@ -12,6 +12,9 @@
     "email": "N/A",
     "url": "https://github.com/awa-vr/vrc-tools"
   },
+  "legacyPackages":[
+    "com.dreadscripts.controllercleaner"
+  ],
   "legacyFolders": {},
   "legacyFiles": {},
   "type": "tool",
